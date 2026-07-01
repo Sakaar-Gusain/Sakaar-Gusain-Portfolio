@@ -9,7 +9,7 @@ import Social from "@/components/Social";
 
 export default function Home() {
   return (
-    <div className=" min-h-screen dark:bg-black">
+    <div className=" min-h-screen  dark:bg-black">
 
       <Taskbar/>
       <Main/>

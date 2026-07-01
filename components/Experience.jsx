@@ -3,7 +3,7 @@ const Experience = () => {
         {
             company: "Digital 360",
             title: "Data Analyst intern",
-            subtitle: "8 june 2026 - Ongoing; Dehradun, Uttarakhand",
+            subtitle: "8 June 2026 - Ongoing; Dehradun, Uttarakhand",
             content: "Python, Numpy, Pandas, Seaborn, Excel, NextJs, ReactJs, TailwindCSS, FastApi,"
         },
         {

@@ -9,6 +9,14 @@ const Project =()=>{
 
             <div className='flex flex-wrap justify-center gap-5'>
                 <Boxes
+                    image="/seo.jpg"
+                    title= "SEO Visual Analysis Dashboard"
+                    skills="Python, Numpy, Pandas, Matplotlib, Data Visualization, NextJS, TailwindCSS, ReactJS, FastAPI"
+                    link="https://seo-analysis-dashboard.vercel.app/"
+                    inline="Demo link"
+                />
+
+                <Boxes
                     image="/houseprice.jpg"
                     title= "Dubai Property Price Prediction"
                     skills="Python, Numpy, Pandas, Matplotlib, Data Visualization, Seaborn, Scikit-learn,FastAPI"
@@ -17,9 +25,9 @@ const Project =()=>{
                 />
                 <Boxes
                     image="/dash.jpg"
-                    title= "SuperStore Sales Analysis PowerBi Dashboard"
+                    title= "SuperStore Sales Analysis Dashboard"
                     skills="PowerBI, Data Cleaning, EDA, DAX, Data Modeling, Dashboard Visualization"
-                    link="https://drive.google.com/file/d/1hRwCzvUwSLMvHNxQzUmfMheRvRmRoE4j/view?usp=sharing"
+                    link="/Superstore Sales Analysis.pdf"
                     inline="PDF File"
 
                 />
@@ -28,14 +36,14 @@ const Project =()=>{
                     title= "PhonePe Transaction Analysis project"
                     skills="Python, Numpy, Pandas, Matplotlib, Data Visualization, Seaborn, Scikit-learn, MySQL"
                     link="https://github.com/Sakaar-Gusain/PhonePe-transaction-analysis"
-                    inline="Github"
+                    inline="GitHub"
                 />
                 <Boxes
                     image="/ml.jpg"
-                    title= "Plant Disease Detectin using ML"
+                    title= "Plant Disease Detection using ML"
                     skills="Python, Pandas, Matplotlib, Machine Learning, Deep Learning, Computer Vision"
-                    link=""
-                    inline="Github"
+                    link="https://github.com/Sakaar-Gusain/Plant-Disease-Detection-using-Machine-Learning"
+                    inline="GitHub"
                 />
             </div>
         </div>

@@ -80,7 +80,7 @@ const Social =  () => {
 
                     <button
                         type="submit"
-                        className="self-center bg-orange-500 text-white px-6 py-3 rounded hover:bg-orange-600 hover:cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-1.5"
+                        className="self-center bg-linear-to-r from-orange-400 via-orange-500 to-red-500 text-white px-6 py-3 rounded hover:bg-orange-600 hover:cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-1.5"
                     >
                         Send
                     </button>

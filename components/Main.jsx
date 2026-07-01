@@ -1,9 +1,6 @@
 "use client"
 const Main = () => {
-    const L = "https://drive.google.com/file/d/1C5zxoGad712A6l8LZuBUlKblT5KRNQBk/view?usp=sharing";
-    const download = () => {
-        window.open(L, "_blank")
-    }
+    
 
     return (
         <div className=" mt-40 mb-45 scroll-mt-45" id="main">
@@ -24,6 +21,7 @@ const Main = () => {
                 </p>
 
             </section>
+
             <div className="items-center justify-center px-2 text-center font-sans mt-8 gap-8">
                 <button className="rounded-lg bg-linear-to-r from-orange-400 via-orange-500 to-red-500 mr-5 px-6 py-3 font-semibold text-white inline-block hover:border-white shadow-md shadow-red-400 transition-transform duration-300 ease-in-out hover:cursor-pointer hover:-translate-y-1.5" onClick={() => {
                     document.getElementById("proj")?.scrollIntoView({
@@ -41,7 +39,7 @@ const Main = () => {
                     Socials
                 </button>
 
-                <button className="rounded-lg bg-linear-to-r from-orange-400 via-orange-500 to-red-500 mr-5 px-6 py-3 font-semibold text-white  hover:border-white shadow-md shadow-red-400 inline-block transition-transform duration-300 ease-in-out hover:cursor-pointer hover:-translate-y-1.5" onClick={download}>
+                <button className="rounded-lg bg-linear-to-r from-orange-400 via-orange-500 to-red-500 mr-5 px-6 py-3 font-semibold text-white  hover:border-white shadow-md shadow-red-400 inline-block transition-transform duration-300 ease-in-out hover:cursor-pointer hover:-translate-y-1.5" onClick={() => window.open("/Sakaar_Gusain_resume.pdf", "_blank")}>
                     Download Resume
                 </button>
 
