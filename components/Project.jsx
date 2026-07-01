@@ -12,7 +12,7 @@ const Project =()=>{
                     image="/seo.jpg"
                     title= "SEO Visual Analysis Dashboard"
                     skills="Python, Numpy, Pandas, Matplotlib, Data Visualization, NextJS, TailwindCSS, ReactJS, FastAPI"
-                    link="https://seo-analysis-dashboard.vercel.app/"
+                    link="https://drive.google.com/file/d/1Ej1x5fSncg62zMeztpj8gh2X3bhrIIjr/view?usp=sharing"
                     inline="Demo link"
                 />
 
