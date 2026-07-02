@@ -1,12 +1,24 @@
 "use client"
+import { TypeAnimation } from "react-type-animation";
 const Main = () => {
-    
+
 
     return (
         <div className=" mt-40 mb-45 scroll-mt-45" id="main">
             <section className="flex flex-1 flex-col items-center justify-center px-6 text-center font-sans" >
 
-                <h1 className="bg-linear-to-r from-red-500 via-orange-500 to-red-500 bg-clip-text text-transparent mb-4 text-5xl font-bold ">Sakaar Gusain</h1>
+                <TypeAnimation
+                    sequence={[
+                        "SAKAAR GUSAIN",
+                        1500,
+                        "",
+                        1500,
+                    ]}
+                    wrapper="h1"
+                    speed={40}
+                    repeat={Infinity}
+
+                    className="bg-linear-to-r from-red-500 via-orange-500 to-red-500 bg-clip-text text-transparent mb-4 text-7xl font-bold " />
 
                 <h2 className="mb-6 text-2xl max-w-5xl  text-justify bg-linear-to-r from-red-200 via-orange-300 to-red-400 bg-clip-text text-transparent">
                     B.Tech Graduate | Data Analyst | Data Science Enthusiast
