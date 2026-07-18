@@ -45,7 +45,7 @@ const Social =  () => {
 
             </div>
 
-            <form onSubmit={sendMessage} className="w-150 bg-[#29292a] border-2 border-orange-300 shadow-md shadow-orange-500 rounded-lg p-6 flex flex-col gap-6 transition-transform duration-300 ease-in-out hover:-translate-y-1.5">
+            <form onSubmit={sendMessage} className="w-150 bg-[#0f0f0f] border-2 border-orange-300 shadow-md shadow-orange-500 rounded-lg p-6 flex flex-col gap-6 transition-transform duration-300 ease-in-out hover:-translate-y-1.5">
 
             
                 <div className="flex flex-col gap-4 flex-1">

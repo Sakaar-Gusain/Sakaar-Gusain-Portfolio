@@ -25,13 +25,13 @@ const Education = () => {
     ];
 
     return (
-        <div id="edu" className="h-full scroll-mt-45 mb-20">
+        <div id="edu" className="h-full scroll-mt-45  py-3">
             <section className="flex flex-1 flex-col items-center justify-center px-6 text-center font-sans">
                 <h1 className="text-5xl font-bold text-center bg-linear-to-r from-red-500 via-orange-500 to-red-500 bg-clip-text text-transparent py-2 mb-8">Education Background</h1>
             </section>
             <div className="relative max-w-6xl mt-10 mx-auto">
 
-                <div className="absolute left-1/2 top-0 h-full w-0.5 bg-orange-300 hover:-translate-x-1/2"></div>
+                <div className="absolute left-1/2 top-0 h-full w-0.5 bg-red-600/50 hover:-translate-x-1/2"></div>
 
                 {steps.map((step, index) => (
                     <div
@@ -43,13 +43,13 @@ const Education = () => {
                     >
 
 
-                        <div className="absolute left-1/2 -translate-x-1/2 w-12 h-12 rounded-full bg-conic-360 from-orange-300 via-orange-600 to-orange-300 text-white flex items-center justify-center font-bold z-10">
+                        <div className="absolute left-1/2 -translate-x-1/2 w-12 h-12 rounded-full bg-conic-360 from-orange-500 via-red-600 to-orange-400 text-white flex items-center justify-center font-bold z-10">
                             {index + 1}
                         </div>
 
 
 
-                        <div className="group w-107.5 bg-[#29292a] p-8 rounded-3xl shadow-md transition-all duration-300 hover:cursor-pointer shadow-red-600">
+                        <div className="group w-107.5 bg-[#0f0f0f] p-8 rounded-3xl shadow-md transition-all border-md border-red-500/30 duration-300 hover:cursor-pointer shadow-red-600">
 
 
 

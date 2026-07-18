@@ -10,14 +10,13 @@ const Main = () => {
                 <TypeAnimation
                     sequence={[
                         "SAKAAR GUSAIN",
-                        1500,
+                        3000,
                         "",
                         1500,
                     ]}
                     wrapper="h1"
-                    speed={40}
+                    speed={30}
                     repeat={Infinity}
-
                     className="bg-linear-to-r from-red-500 via-orange-500 to-red-500 bg-clip-text text-transparent mb-4 text-7xl font-bold " />
 
                 <h2 className="mb-6 text-2xl max-w-5xl  text-justify bg-linear-to-r from-red-200 via-orange-300 to-red-400 bg-clip-text text-transparent">

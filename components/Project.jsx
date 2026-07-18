@@ -8,6 +8,13 @@ const Project =()=>{
             </section>
 
             <div className='flex flex-wrap justify-center gap-5'>
+                 <Boxes
+                    image="/to-do.jpg"
+                    title= "To-do List Fullstack WebApp"
+                    skills="Python, MySQL, Database Management System, NextJS, TailwindCSS, ReactJS, FastAPI"
+                    link="https://to-do-list-main-pi.vercel.app/login"
+                    inline="Website"
+                />
                 <Boxes
                     image="/seo.jpg"
                     title= "SEO Visual Analysis Dashboard"
@@ -21,14 +28,14 @@ const Project =()=>{
                     title= "Dubai Property Price Prediction"
                     skills="Python, Numpy, Pandas, Matplotlib, Data Visualization, Seaborn, Scikit-learn,FastAPI"
                     link="https://2xsafpee3brbhsczccjg2c.streamlit.app/"
-                    inline="Demo link"
+                    inline="Website"
                 />
                 <Boxes
                     image="/dash.jpg"
                     title= "SuperStore Sales Analysis Dashboard"
                     skills="PowerBI, Data Cleaning, EDA, DAX, Data Modeling, Dashboard Visualization"
                     link="/Superstore Sales Analysis.pdf"
-                    inline="PDF File"
+                    inline="PDF"
 
                 />
                 <Boxes
